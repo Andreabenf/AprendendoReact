@@ -1,5 +1,9 @@
-<<<<<<< HEAD
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Minha tentativa de aprendizado tanto de React.js quanto de Git e Github!
+
+Abaixo, esta o readme.md gerado após usar create-react-app
+
+
 
 ## Available Scripts
 
