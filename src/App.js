@@ -11,12 +11,18 @@ class App extends Component {
       {carac: 'troxa', age: 34}
     ]
   }
+
+  trocaNome = () =>{
+    console.log("foi, irmapo");
+  }
+
+
   render() {
     return (
       <div className="App">
         <h1>Aprendendo React</h1>
         <Pessoa carac={this.state.persons[Math.floor(Math.random()*this.state.persons.length)].carac} age={this.state.persons[Math.floor(Math.random()*this.state.persons.length)].age}>Como isso sai?</Pessoa>
-        <button>Clica ai pra mudar os nomes</button>
+        <button onClick={this.trocaNome}>Clica ai pra mudar os nomes</button>
       </div>
     );
   }
